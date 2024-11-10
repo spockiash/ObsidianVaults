@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "81c9ebfe4bf4c0d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2585e221ec60b38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efb7a97e029aefd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concepts/Actor Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Actor Model"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ae991aaa806662ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8f9fba9bd033050",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65bcccc37c7a6a3c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0ef2842c85e12fd5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e58e8c017504f556",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a864290403182595",
+    "type": "split",
+    "children": [
+      {
+        "id": "44ecb3caf1eecda4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f86d289dc8a8b5e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Concepts/Functional vs OOP Concepts.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Functional vs OOP Concepts"
+            }
+          },
+          {
+            "id": "3d84de79b32cb5c6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Concepts/Functional vs OOP Concepts.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Functional vs OOP Concepts"
+            }
+          },
+          {
+            "id": "93bea3709c85020d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4b42e2243726fe3a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Concepts/Functional vs OOP Concepts.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Functional vs OOP Concepts"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "efb7a97e029aefd0",
+  "lastOpenFiles": [
+    "Concepts/Immutibility.md",
+    "Concepts/Actor Model.md",
+    "Concepts/Pattern Matching.md",
+    "Concepts/Functional vs OOP Concepts.md",
+    "Elixir.md",
+    "Concepts",
+    "create a link.md"
+  ]
+}

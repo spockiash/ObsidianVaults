@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "6c3981952ed23580",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a5ff11b5077d0a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1676728288299682",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vim/Vim Essentials.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vim Essentials"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b62dd799777808a",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ceb3415484585b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9a83b31d0f13034",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d3354915c712fab8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e8943e06a4dd09b9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d1afecdc8e1209d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "179eb06a5b35c3b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0cf607bb1785b774",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vim/Vim Essentials.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Vim Essentials"
+            }
+          },
+          {
+            "id": "2cb39a81910a2f88",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Vim/Vim Essentials.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Vim Essentials"
+            }
+          },
+          {
+            "id": "82aba7d7ea5f5d56",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5609f1ab0e689e67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Vim/Vim Essentials.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Vim Essentials"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1676728288299682",
+  "lastOpenFiles": [
+    "Shell/Processes.md",
+    "Shell/Working with text files.md",
+    "Shell/File system management.md",
+    "Shell/Bash and Z Shell overview.md",
+    "Shell/Advanced file system management/Listing files and Directories.md",
+    "Shell/Advanced file system management/Creating, reading and editing files.md",
+    "Vim/Vim Essentials.md",
+    "Welcome.md",
+    "Shell/Advanced file system management",
+    "Untitled.md",
+    "Vim",
+    "Shell"
+  ]
+}
