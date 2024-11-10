@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Actor Model.md",
+                "file": "Elixir.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Actor Model"
+              "title": "Elixir"
             }
           }
         ]
@@ -164,8 +164,8 @@
   },
   "active": "efb7a97e029aefd0",
   "lastOpenFiles": [
-    "Concepts/Immutibility.md",
     "Concepts/Actor Model.md",
+    "Concepts/Immutability.md",
     "Concepts/Pattern Matching.md",
     "Concepts/Functional vs OOP Concepts.md",
     "Elixir.md",
