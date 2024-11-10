@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "71aed01568d957f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e148b1874050fdec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0417730afb224748",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Infernal Game Game Design Document.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a2c207284b25847b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5959d8d2e6ebfc2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e47f75d69e9e273e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "09812ff17df75c05",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d7565f8e271a8273",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0b3b3a18efce5cbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca245d40f7ea8738",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75fce372b4c1ef4c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Infernal Game Game Design Document.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b6dccbda96470bf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Infernal Game Game Design Document.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b20e518e4186c881",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "57672c6178bee448",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Infernal Game Game Design Document.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0417730afb224748",
+  "lastOpenFiles": [
+    "Infernal Game Game Design Document.md"
+  ]
+}

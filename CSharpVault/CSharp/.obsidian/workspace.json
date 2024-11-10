@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "d5d9a49dbb90656c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2298fe5e42d8c31a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "191340a630f6b4b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced features/Overloading and Extension methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e73a85172e71e90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional_programming/FP Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aaee4ef7ddc18554",
+    "type": "split",
+    "children": [
+      {
+        "id": "0793fa49cde2ab8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ab782cb2355c6f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Links and sources.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d6a2d1d2933890f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "134ac6c4f83cc5fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "4e473813a6af4e77",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 535.5
+  },
+  "right": {
+    "id": "0e912924dce03568",
+    "type": "split",
+    "children": [
+      {
+        "id": "f24e798f53268b39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "880beb728501c114",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Functional_programming/FP Intro.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bbe66be4625c88ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Functional_programming/FP Intro.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f2b7a160f3574ac4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7312fbb36a77946d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Functional_programming/FP Intro.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8e73a85172e71e90",
+  "lastOpenFiles": [
+    "Functional_programming/FP Intro.md",
+    "Delegates/Delegates in CSharp.md",
+    "Advanced features/Events.md",
+    "Advanced features/Overloading and Extension methods.md",
+    "Functional_programming/Additional concepts.md",
+    "Advanced features",
+    "Links and sources.md",
+    "Images/HOF_Where_Example.svg",
+    "Images",
+    "Excalidraw/Drawing 2024-03-17 12.04.16.excalidraw.md",
+    "Excalidraw",
+    "Untitled Diagram.svg",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Untitled 5.canvas",
+    "2024-03-17.md",
+    "Untitled 4.canvas",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "Functional_programming",
+    "create a link.md",
+    "Delegates"
+  ]
+}

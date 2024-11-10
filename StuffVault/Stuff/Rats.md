@@ -1,0 +1,1 @@
+Now I am going to link back to todays [[2023-11-14]] note.

@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "413847902055054c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fedeab470cd9d16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77e65aa289ae0969",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec6688d56c9eeeff",
+    "type": "split",
+    "children": [
+      {
+        "id": "a43f31aacb86d575",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa934b26546d2179",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f7aa70d1a2a9079a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b328c73bdbe57aa5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e5e3af9495982bc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "563d5a0acdfbe86f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c640156285c5f01c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c7436a10a6819daa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a7f221cb7be2387",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "310f4a8665926da4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "77e65aa289ae0969",
+  "lastOpenFiles": [
+    "2024-02-25.md",
+    "Untitled.md",
+    "Untitled.canvas",
+    "Features/Linking in obsidian.md",
+    "Linking in obsidian.md",
+    "Linking in obsidian 1.md",
+    "Features"
+  ]
+}
