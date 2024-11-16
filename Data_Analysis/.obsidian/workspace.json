@@ -1,24 +1,40 @@
 {
   "main": {
-    "id": "81c9ebfe4bf4c0d1",
+    "id": "8a40368acdcf50cc",
     "type": "split",
     "children": [
       {
-        "id": "b2585e221ec60b38",
+        "id": "e6584c2cfa90f621",
         "type": "tabs",
         "children": [
           {
-            "id": "efb7a97e029aefd0",
+            "id": "5ade257f2378745e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Types/Types Overview.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Types Overview"
+              "title": "Welcome"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0d0143e9f4ecf943",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51bf55be5c795d8b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -27,15 +43,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ae991aaa806662ea",
+    "id": "492c5b6af2fc45e7",
     "type": "split",
     "children": [
       {
-        "id": "e8f9fba9bd033050",
+        "id": "91749e06b42ddb9b",
         "type": "tabs",
         "children": [
           {
-            "id": "65bcccc37c7a6a3c",
+            "id": "8f15656f2a3fa68d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +63,7 @@
             }
           },
           {
-            "id": "0ef2842c85e12fd5",
+            "id": "6122d1a81caa8c32",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +80,7 @@
             }
           },
           {
-            "id": "e58e8c017504f556",
+            "id": "351e55ec07832d45",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -80,20 +96,20 @@
     "width": 300
   },
   "right": {
-    "id": "a864290403182595",
+    "id": "9499f393737d6601",
     "type": "split",
     "children": [
       {
-        "id": "44ecb3caf1eecda4",
+        "id": "4ff97d8f170c395a",
         "type": "tabs",
         "children": [
           {
-            "id": "f86d289dc8a8b5e1",
+            "id": "fe50f4e01062c7cb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concepts/Functional vs OOP Concepts.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,25 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Functional vs OOP Concepts"
+              "title": "Backlinks for Welcome"
             }
           },
           {
-            "id": "3d84de79b32cb5c6",
+            "id": "d2019cfd2432403c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Concepts/Functional vs OOP Concepts.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Functional vs OOP Concepts"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "93bea3709c85020d",
+            "id": "d4a71c6992d8772a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,15 +150,15 @@
             }
           },
           {
-            "id": "4b42e2243726fe3a",
+            "id": "f2e2be7c78bc13a9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Concepts/Functional vs OOP Concepts.md"
+                "file": "Welcome.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Functional vs OOP Concepts"
+              "title": "Outline of Welcome"
             }
           }
         ]
@@ -162,20 +178,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "efb7a97e029aefd0",
+  "active": "5ade257f2378745e",
   "lastOpenFiles": [
-    "Elixir.md",
-    "Concepts/Functional vs OOP Concepts.md",
-    "Concepts/Types/Basic Arithmetic.md",
-    "Concepts/Types/Types Overview.md",
-    "Concepts/Types/Numeric Literals.md",
-    "Concepts/Pattern Matching.md",
-    "Immutability\".md",
-    "Concepts/Immutability.md",
-    "Concepts/Types/Integers.md",
-    "Concepts/Types",
-    "Concepts/Actor Model.md",
-    "Concepts",
-    "create a link.md"
+    "Welcome.md"
   ]
 }

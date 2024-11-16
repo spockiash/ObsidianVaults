@@ -7,5 +7,5 @@ In languages like C++ or C# this statement means variable `a` is assigned with v
 	a = 1
 	1 = a
 ```
-
+Another important aspect of functional programming is [[Immutability|immutability]] of data. This goes hand in hand with stateless functions.
 
