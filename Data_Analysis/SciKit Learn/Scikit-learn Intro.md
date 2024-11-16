@@ -20,7 +20,7 @@ X, y = fetch_california_housing(return_X_y=True)
            39.37      , -121.24      ]]),
  array([4.526, 3.585, 3.521, ..., 0.923, 0.847, 0.894]))
 ```
-This code represents data of housing prices in California. The data is separated into two objects: X and y. X represents various data about the houses and y represents cost of the houses in thousands of dollars. This data is then passed onto a the Scikit-learn model and it trains on that data. The trained model then can make predictions.
+This code represents data of housing prices in California. The data is separated into two objects: X and y. X represents various data about the houses and y represents cost of the houses in thousands of dollars. This data is then passed onto a the [[Scikit-learn models|Scikit-learn model]] and it trains on that data. The trained model then can make predictions.
 ![[ScikitLearnModelExample.png]]
 X = data about houses per district, y = house prices per district in units of 100,000 USD
 
@@ -64,3 +64,25 @@ pred = pipe.predict(X)
 plt.scatter(pred, y)
 ```
 ![[ScaledNearestNeighborPipelineScatter.png]]
+As we can see and compare it to basic model without scaling, the shape of the graph has changed. However there is a problem, we are predicting with the same data we trained on.
+## Splicing data
+When we have one data set and need to judge the model we can splice the data into multiple segments, for example considering our California list we can splice it into three parts.
+
+We make two copies of our data and select for each pair that will be used to predict the values. The rest will be declared for training:
+![[DataSplicingVisualized.png]]
+The idea is that we will be fitting our model with green parts and predicting with red parts.
+# GridSearchCV - finding best model settings
+More information about this object can be found here: [[GridSearchCV]]
+The model can have parameters, for example number of neighbors. Because of this we want to find the best settings, so the model makes the best predictions. To figure out what settings are the best we can compare our prediction to the original label. This is demonstrated with this image.
+![[ScikitLearnModelWithParams.png]]
+>[!info] Notice
+>We cannot judge the model using the same data we trained for
+
+To create effective model from one dataset, we have to [[#Splicing data|splice]] the data.
+
+## Finding the best setting for our model
+To find the best setting based on selected parameters we can use GridSearchCV object.
+![[GridSearchCVDiagram.png]]
+This GridSearchCV object will perform cross validation and provide somewhat sound methodology.
+## Rethinking models
+The GridSearchCV object has itself fit and predict functions. We can therefore think about it as a model.

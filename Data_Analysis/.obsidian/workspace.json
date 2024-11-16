@@ -6,62 +6,20 @@
       {
         "id": "e6584c2cfa90f621",
         "type": "tabs",
-        "dimension": 75.53418803418803,
+        "dimension": 51.96700507614214,
         "children": [
-          {
-            "id": "5ade257f2378745e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SciKit Learn/Scikit-learn Intro.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Scikit-learn Intro"
-            }
-          },
-          {
-            "id": "d0d8684065ab4dd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SciKit Learn/Pipelines.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pipelines"
-            }
-          },
-          {
-            "id": "4b3fa53e0876e1e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SciKit Learn/Models/KNeighborsRegressor.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "KNeighborsRegressor"
-            }
-          },
           {
             "id": "852ec5cdb884e4cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SciKit Learn/Scikit-learn Intro.md",
+                "file": "SciKit Learn/GridSearchCV.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scikit-learn Intro"
+              "title": "GridSearchCV"
             }
           }
         ]
@@ -69,7 +27,7 @@
       {
         "id": "0d0143e9f4ecf943",
         "type": "tabs",
-        "dimension": 24.465811965811966,
+        "dimension": 48.03299492385787,
         "children": [
           {
             "id": "51bf55be5c795d8b",
@@ -153,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SciKit Learn/Scikit-learn Intro.md",
+                "file": "SciKit Learn/GridSearchCV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Scikit-learn Intro"
+              "title": "Backlinks for GridSearchCV"
             }
           },
           {
@@ -172,12 +130,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SciKit Learn/Scikit-learn Intro.md",
+                "file": "SciKit Learn/GridSearchCV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Scikit-learn Intro"
+              "title": "Outgoing links from GridSearchCV"
             }
           },
           {
@@ -199,10 +157,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SciKit Learn/Scikit-learn Intro.md"
+                "file": "SciKit Learn/GridSearchCV.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Scikit-learn Intro"
+              "title": "Outline of GridSearchCV"
             }
           }
         ]
@@ -222,20 +180,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ade257f2378745e",
+  "active": "852ec5cdb884e4cb",
   "lastOpenFiles": [
-    "ScaledNearestNeighborPipelineScatter.png",
+    "GridSearchResultExample2.png",
+    "SciKit Learn/GridSearchCV.md",
+    "GridSearchResultExample.png",
     "SciKit Learn/Scikit-learn Intro.md",
-    "SciKit Learn/Pipelines.md",
-    "SciKit Learn/Models/KNeighborsRegressor.md",
+    "SciKit Learn/Scikit-learn models.md",
     "SciKit Learn/Basic scaling.md",
+    "GridSearchCVDiagram.png",
+    "DataSplicingVisualized.png",
+    "SciKit Learn/Available Statistical Models/KNeighborsRegressor.md",
+    "SciKit Learn/Pipelines.md",
+    "ScikitLearnModelWithParams.png",
+    "ScaledNearestNeighborPipelineScatter.png",
     "ExpandedModelExample.png",
     "DataScalingDiagram01.png",
     "NearestNeighborExample01.png",
     "SciKit Learn/Data",
-    "SciKit Learn/Models",
+    "SciKit Learn/Available Statistical Models",
     "ScikitIntroScatterPlot.png",
-    "ScikitLearnModelExample.png",
     "Welcome.md",
     "SciKit Learn"
   ]
