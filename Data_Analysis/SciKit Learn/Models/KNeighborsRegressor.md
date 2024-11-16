@@ -1,0 +1,3 @@
+Consider simple example with the below image. On the y axis we have proximity to public building and on x axis we have square feet of the house. Green and red points are known data that model trained on. White point is prediction point. The nearest neighbor regressor takes nearest n neighbors based on provided setting (usually 1-10). In the image below we have nearest 5 nearest neighbors selected.
+![[NearestNeighborExample01.png]]
+The prediction of this selected point will be based on average of the selected 5 nearest neighbors. The data must be evaluated, because it can happen that the proximity is in orders of magnitude larger value then the square footage. To help with this we can use [[Basic scaling|scaling]].
