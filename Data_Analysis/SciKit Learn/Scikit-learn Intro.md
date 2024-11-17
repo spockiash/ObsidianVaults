@@ -86,3 +86,5 @@ To find the best setting based on selected parameters we can use GridSearchCV ob
 This GridSearchCV object will perform cross validation and provide somewhat sound methodology.
 ## Rethinking models
 The GridSearchCV object has itself fit and predict functions. We can therefore think about it as a model.
+# Preprocessing
+More information about preprocessing can be found [[Preprocessing intro|here]].
