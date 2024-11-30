@@ -43,4 +43,15 @@ Below is an example data [[Probability distribution|distribution]]. It shows som
 What we can do now is to calculate the quantiles. We can think of it as taking arbitrary points across the data and cutting the range of probability distribution. So 50% quantile([[Median|median]]) would have half of the distribution to its left and right. The 25% quantile would have 25% of the distribution to its left and 75 to its right.
 ![[QuantizationOfData.png]]
 The QuantileTransformer then takes this data and normalizes it so the distribution is uniform or normal. For a given feature. this transformation tends to spread out the most frequent values. It also reduces the impact of marginal outliers. More information about how it effects data is [[Effects of QuantileTransformer|here]].
-##
+## Using PolynomialFeatures
+Consider the following data:
+```python
+df = pd.read_csv("../Data/drawndata2.csv")
+X = df[['x', 'y']].values
+y = df['z'] == 'a'
+plt.scatter(X[:, 0], X[:, 1], c=y);
+```
+![[NonLinearDrawnData.png]]
+As we can see the data is non linear. The reasoning for that is the data consists of two clusters that are not separable linearly (we cannot draw line that divides the data type so that on each side of the line is only one type of data).
+
+Linear model like logistic regression would struggle to accurately separate two groups, because straight line cannot effectively divide them.

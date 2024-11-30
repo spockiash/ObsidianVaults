@@ -1,3 +1,4 @@
+Scikit learn is [[Python for data analysis||python]] library useful for machine learning. It is useful for classification, regression and clustering algorithms. It can be broadly used for data analysis. Scikit is used together with [[Pandas overview|pandas]].
 # Data and model
 Consider the following example:
 ```python
