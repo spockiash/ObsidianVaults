@@ -1,0 +1,1 @@
+Python has adopted Unicode as standard for first class string types.

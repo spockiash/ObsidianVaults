@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2f62aa067180b3ef",
+        "id": "c3e985e5cde18c7e",
         "type": "tabs",
         "children": [
           {
-            "id": "0edd52e8d0621990",
+            "id": "93df4261ee16c013",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Pandas/DataFrame Missing Values.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DataFrame Missing Values"
             }
           }
         ]
@@ -158,48 +162,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0edd52e8d0621990",
+  "active": "93df4261ee16c013",
   "lastOpenFiles": [
+    "Pandas/DataFrame.md",
+    "Pandas/Pandas overview.md",
+    "Pandas/Conditional filters.md",
+    "Pandas/DataFrame Missing Values.md",
+    "Pandas/Series.md",
+    "numpy.md",
+    "Pandas/Untitled",
+    "Numpy/Arrays/Indexing and slicing.md",
+    "Python for Data Analysis_Indexing_NDARR.png",
+    "Numpy/Arrays/Numpy ndarray.md",
+    "Python/Data types and structures/Slicing in Python.md",
+    "Python/Data types and structures/Lists.md",
+    "Python/Data types and structures/Strings.md",
+    "Python/Data types and structures/Tuples.md",
+    "Python/Data types and structures/Data structures.md",
+    "Python/Data types and structures/Bytes and unicode.md",
+    "Numpy/Arrays/Numpy array arithmetic.md",
+    "Numpy/Arrays/Array data types.md",
+    "Numpy/Arrays",
+    "Numpy/Numpy Intro.md",
     "Python/Python for data analysis.md",
+    "Numpy",
+    "Python/Data types and structures/Scalar types.md",
+    "Python/Data types and structures/Numeric types.md",
     "Python/Operators.md",
     "Python/Basic concepts.md",
-    "Python/Data types and structures/Data structures.md",
     "SciKit Learn/Scikit-learn Intro.md",
     "Python/Data types and structures/Dictionaries.md",
     "Python/Data types and structures/Sets.md",
-    "Python/Data types and structures/Lists.md",
-    "Python/Data types and structures/Tuples.md",
-    "Pandas/Pandas overview.md",
     "Pandas",
     "Python/Data types and structures",
     "SciKit Learn/Preprocessing/Preprocessing intro.md",
     "Python",
-    "SciKit Learn/Preprocessing/Standardization in Scikit-learn.md",
-    "SciKit Learn/GridSearchCV.md",
-    "SciKit Learn/Pipelines.md",
-    "SciKit Learn/Scikit-learn models.md",
-    "Statistical Concepts/Probability distribution.md",
     "NonLinearDrawnData.png",
-    "SciKit Learn/Preprocessing/Effects of QuantileTransformer.md",
     "QuantileTransformerEffectExample.png",
     "StandardScalerTransformExample.png",
-    "3.md",
-    "Statistical Concepts/Median.md",
     "Statistical Concepts",
     "QuantileTransformOriginalDistribution.png",
     "QuantizationOfData.png",
     "QuantileTransformOriginalDistributin.png",
-    "SciKit Learn/Preprocessing/Basic scaling.md",
     "SciKit Learn/Images/QuantileTransformerExample01.png",
     "SciKit Learn/Images/StandardScalerOutputExample.png",
     "SciKit Learn/Images/DataScalingDiagram01.png",
     "SciKit Learn/Images",
     "SciKit Learn/Preprocessing",
-    "SciKit Learn/Images/DrawnData1CsvPlottedWithoutPreprocessing.png",
-    "SciKit Learn/Available Statistical Models/KNeighborsRegressor.md",
-    "SciKit Learn/Data",
-    "SciKit Learn/Available Statistical Models",
-    "Welcome.md",
-    "SciKit Learn"
+    "SciKit Learn/Data"
   ]
 }
