@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pandas/DataFrame Missing Values.md",
+                "file": "Machine Learning/Machine Learning Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataFrame Missing Values"
+              "title": "Machine Learning Fundamentals"
             }
           }
         ]
@@ -164,10 +164,12 @@
   },
   "active": "93df4261ee16c013",
   "lastOpenFiles": [
+    "Pandas/DataFrame Missing Values.md",
+    "Machine Learning/Machine Learning Fundamentals.md",
+    "Machine Learning",
     "Pandas/DataFrame.md",
     "Pandas/Pandas overview.md",
     "Pandas/Conditional filters.md",
-    "Pandas/DataFrame Missing Values.md",
     "Pandas/Series.md",
     "numpy.md",
     "Pandas/Untitled",
@@ -195,7 +197,6 @@
     "Python/Data types and structures/Sets.md",
     "Pandas",
     "Python/Data types and structures",
-    "SciKit Learn/Preprocessing/Preprocessing intro.md",
     "Python",
     "NonLinearDrawnData.png",
     "QuantileTransformerEffectExample.png",
@@ -208,7 +209,6 @@
     "SciKit Learn/Images/StandardScalerOutputExample.png",
     "SciKit Learn/Images/DataScalingDiagram01.png",
     "SciKit Learn/Images",
-    "SciKit Learn/Preprocessing",
-    "SciKit Learn/Data"
+    "SciKit Learn/Preprocessing"
   ]
 }
