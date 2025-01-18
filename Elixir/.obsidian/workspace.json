@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/Types/Types Overview.md",
+                "file": "Concepts/Types/Basic Arithmetic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Types Overview"
+              "title": "Basic Arithmetic"
+            }
+          },
+          {
+            "id": "db88770f40b1a6d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Motivation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Motivation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,12 +177,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "efb7a97e029aefd0",
+  "active": "65bcccc37c7a6a3c",
   "lastOpenFiles": [
-    "Elixir.md",
-    "Concepts/Functional vs OOP Concepts.md",
+    "Erlang and BEAM/Erlang concurency.md",
+    "Erlang and BEAM/BEAM-Process-diagram.png",
+    "Motivation.md",
+    "Erlang and BEAM",
     "Concepts/Types/Basic Arithmetic.md",
     "Concepts/Types/Types Overview.md",
+    "Elixir.md",
+    "Concepts/Functional vs OOP Concepts.md",
     "Concepts/Types/Numeric Literals.md",
     "Concepts/Pattern Matching.md",
     "Immutability\".md",
