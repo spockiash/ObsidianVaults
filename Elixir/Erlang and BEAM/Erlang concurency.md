@@ -9,3 +9,6 @@ The processes are primitive type in the Erlang VM called Erlang process:
 ## Fault tolerance
 Erlang processes are completely isolated from each other. When one crashes it does not affect others. Erlang provides means to detect crashes in processes.
 ## Scalability
+The processes communicate via asynchronous messages. This means there are no complex synchronization mechanisms such as locks, mutexes or semaphores.
+Typical Erlang systems are divided into large number of processes that combine into single system. The virtual machine can efficiently parallelize the execution and distributes the workload across available CPU cores making Erlang very scalable.
+## Distribution
