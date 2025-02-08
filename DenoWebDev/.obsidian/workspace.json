@@ -13,32 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deno/Untitled.md",
+                "file": "React/Create React App.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Create React App"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "417152fa7c61a0b0",
+        "type": "tabs",
+        "children": [
           {
-            "id": "e15930f5c063f42e",
+            "id": "1549dcbfb42f36af",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "36ab900f7717039b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -60,7 +56,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -189,11 +186,16 @@
   },
   "active": "f54a45be35414945",
   "lastOpenFiles": [
-    "Deno/Node and npm support.md",
+    "Untitled.canvas",
+    "Deno/Deno.md",
+    "React/Create React App.md",
+    "Reac.md",
+    "React",
+    "Deno Cheat Sheet.md",
     "Deno/Untitled.md",
     "Deno/TypeScript support.md",
+    "Deno/Node and npm support.md",
     "Deno/Deno Cheat Sheet.md",
-    "Deno/Deno.md",
     "Deno/Configuration.md",
     "Deno"
   ]
