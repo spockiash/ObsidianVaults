@@ -25,3 +25,35 @@ export const config: RouteConfig = {
 
 // ...
 ```
+# Route groups
+Each route group can have only one `_layout.tsx` file. For example the default Fresh app creates `_app.tsx` as the layout file.
+```
+└── routes
+    ├── (marketing)
+    │   ├── _layout.tsx  # only applies to about.tsx and career.tsx
+    │   ├── about.tsx
+    │   └── career.tsx
+    └── (info)
+        ├── _layout.tsx  # only applies to archive.tsx and contact.tsx
+        ├── archive.tsx
+        └── contact.tsx
+```
+To create route groups use folder that has name put in parentheses like `(marketing`.
+## Co-location
+We can use similar technique to put islands closer to their route location. Inside each group we can put `(_islands)` or `(_components)`:
+```
+└── routes
+    ├── (marketing)
+    │   ├── _layout.tsx
+    │   ├── about.tsx
+    │   ├── career.tsx
+    │   ├── (_components)
+    │   │   └── newsletter-cta.tsx
+    │   └── (_islands)
+    │       └── interactive-stats.tsx # Fresh treats this as an island
+    └── shop
+        ├── (_components)
+        │   └── product-card.tsx
+        └── (_islands)
+            └── cart.tsx # Fresh treats this as an island
+```

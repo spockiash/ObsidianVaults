@@ -8,21 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f54a45be35414945",
+            "id": "188b1ef790b6bf05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Create React App.md",
+                "file": "Fresh/Routes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Create React App"
+              "title": "Routes"
             }
           },
           {
-            "id": "188b1ef790b6bf05",
+            "id": "4410cbe1dc4bdef0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,23 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "Routing"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "417152fa7c61a0b0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1549dcbfb42f36af",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           }
         ]
@@ -109,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 220.5,
+    "collapsed": true
   },
   "right": {
     "id": "3596555b2f76e8c0",
@@ -201,12 +185,13 @@
   },
   "active": "188b1ef790b6bf05",
   "lastOpenFiles": [
+    "Fresh/Routing.md",
+    "Fresh/Routes.md",
+    "React/Create React App.md",
     "Fresh/Fresh Framework.md",
     "Deno/Deno.md",
-    "Fresh/Routing.md",
     "Fresh",
     "Untitled.canvas",
-    "React/Create React App.md",
     "Reac.md",
     "React",
     "Deno Cheat Sheet.md",
