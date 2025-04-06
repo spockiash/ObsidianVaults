@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fresh/Routes.md",
+                "file": "React/State management/Zustand/Demos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Routes"
+              "title": "Demos"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5,
-    "collapsed": true
+    "width": 220.5
   },
   "right": {
     "id": "3596555b2f76e8c0",
@@ -185,9 +184,15 @@
   },
   "active": "188b1ef790b6bf05",
   "lastOpenFiles": [
-    "Fresh/Routing.md",
-    "Fresh/Routes.md",
+    "React/State management/Zustand/Zustand.md",
+    "React/State management/Zustand/Demos.md",
+    "React/State management/Zustand/Zustand Store.md",
     "React/Create React App.md",
+    "React/State management/Zustand",
+    "React/State management",
+    "Deno/Untitled.md",
+    "Fresh/Routes.md",
+    "Fresh/Routing.md",
     "Fresh/Fresh Framework.md",
     "Deno/Deno.md",
     "Fresh",
@@ -195,7 +200,6 @@
     "Reac.md",
     "React",
     "Deno Cheat Sheet.md",
-    "Deno/Untitled.md",
     "Deno/TypeScript support.md",
     "Deno/Node and npm support.md",
     "Deno/Deno Cheat Sheet.md",
