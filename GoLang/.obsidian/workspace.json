@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules and Packages.md",
+                "file": "Type System/Pre-declared (built-in) types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modules and Packages"
+              "title": "Pre-declared (built-in) types"
             }
           }
         ],
@@ -201,7 +201,9 @@
   },
   "active": "09a2c9fee5f51cc6",
   "lastOpenFiles": [
-    "Go Language.md",
-    "Modules and Packages.md"
+    "Modules and Packages.md",
+    "Type System/Pre-declared (built-in) types.md",
+    "Type System",
+    "Go Language.md"
   ]
 }

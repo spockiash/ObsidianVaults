@@ -50,3 +50,14 @@ export type Person = {
   })
 ```
 The only boilerplate here is the type setup. Zustand also has state management API for creating slices, but they provide more boilerplate.
+
+```ts
+const customCompare = (a: any, b: any) => {
+  return a.count === b.count && a.user.name === b.user.name;
+};
+
+const useStore = createWithEqualityFn((set) => ({
+  count: 0,
+  user: { name: 'Bob' },
+}), customCompare)
+```
