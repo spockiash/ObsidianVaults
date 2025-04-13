@@ -1,6 +1,6 @@
 Go has many so called predeclared types. They are similar to types found in other languages like booleans and integers. By default Go assigns declared variables so called `zero value` that is declared but not assigned any value.
 ## Literals
-Go has support for literals like any other language. 
+Go has support for literals like any other language. Literals are considered untyped.
 ### Integer literal
 By default integer literals are sequence of numbers with base 10 by default. Similar to C we can use prefixes to indicate other bases like `0b` for binary, `0o` for octal and `0x` for hexadecimal. Go supports either upper and lower case prefix. Leading zero in integer integral can also indicate octal value.
 
@@ -16,3 +16,22 @@ Rune literals can be escaped to create special values like new line `'\n'` and o
 
 Octal values are useful for representing POSIX permission flags like` '0o777'` meaning `rwxrwxrwx`.
 ### String literals
+There are two ways of indicating string literals. Most of the time, you should use double quotes to created an interpreted string literal: `"Hello, world"`. These strings interpret rune literals (both numeric and backslash escaped) into characters.
+
+> [!info]
+> You cannot use backslash to escape single quote inside a single quoted string
+
+Unescaped backslashes, newlines and double quotes are the only illegal things in interpreted string.
+#### Raw string literals
+Raw string literals provide easier way to create string literals without the need for escaping special characters. Raw literals use back-quotes:
+```go
+`Greetings and
+"Salutations"`
+```
+The literals can be written across multiple lines as well.
+## Booleans
+Booleans represent binary state `true` or `false`. The default zero value is false:
+```go
+var flag bool // no value assigned, set to false
+var isAwesome = true
+```
