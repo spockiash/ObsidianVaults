@@ -1,7 +1,7 @@
 Go is statically and strongly typed language. It is compiled and does have garbage collector.
 # Types and declarations
 ## Type system
-Go has [[Pre-declared (built-in) types|built-in]] types and composite types.
+Go has [[Pre-declared (built-in) types|built-in]] types and [[Composite types|composite]] types.
 ## Declarations
 Go has multiple ways of declaring variable. The most verbose way of declaring variable is with var keyword:
 ```go
