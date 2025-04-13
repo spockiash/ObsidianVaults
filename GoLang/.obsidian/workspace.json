@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Type System/Pre-declared (built-in) types.md",
+                "file": "Go Language.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pre-declared (built-in) types"
+              "title": "Go Language"
             }
           }
         ],
@@ -201,6 +201,7 @@
   },
   "active": "09a2c9fee5f51cc6",
   "lastOpenFiles": [
+    "Type System/Immutability.md",
     "Go Language.md",
     "Type System/Pre-declared (built-in) types.md",
     "Type System/Type conversions.md",
