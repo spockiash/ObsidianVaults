@@ -61,3 +61,13 @@ cap(x)
 This function works with arrays as well but it will produce the same result as `len`.
 It is more efficient to size the slices once with `make` function.
 ## Function `make`
+Function `make` is useful for creating sized slices. It takes as arguments the type, size and optionally capacity:
+```go
+x := make([]int, 5)
+```
+This creates slice of length 5 of type int.
+Appending values to such slice will assign the value after the first 5 elements:
+```go
+x = append(x, 10)
+```
+This would produce slice with content: `[0,0,0,0,0,10]` with size 6 and capacity 10. The capacity was doubled as soon as the sixth element was added.
