@@ -201,9 +201,10 @@
   },
   "active": "09a2c9fee5f51cc6",
   "lastOpenFiles": [
+    "Go Language.md",
     "Type System/Pre-declared (built-in) types.md",
+    "Type System/Type conversions.md",
     "Modules and Packages.md",
-    "Type System",
-    "Go Language.md"
+    "Type System"
   ]
 }
