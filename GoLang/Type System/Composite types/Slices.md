@@ -71,3 +71,66 @@ Appending values to such slice will assign the value after the first 5 elements:
 x = append(x, 10)
 ```
 This would produce slice with content: `[0,0,0,0,0,10]` with size 6 and capacity 10. The capacity was doubled as soon as the sixth element was added.
+### Append to empty slice
+If we create slice with non-zero capacity and length of 0, it cannot be indexed into but append will insert values to the slice starting at index 0.
+```go
+x := make([]int, 0, 10)
+x = append(x, 5,6,7,8) // [5,6,7,8]
+```
+## Clearing slices
+To empty an slice we can call `clear(s)` function. It takes reference to a slice and resets its elements to zero:
+```go
+var x = []string{"first", "second", "third"}
+clear(x) //returns slice with 3 empty strings, len = 3
+```
+## Slicing
+If we want to slice a slice we can use the square brackets syntax and instead of index we can put there starting and ending offset separated by `:`, the boundaries can be omitted and this way we select whole slice to the left or right:
+```go
+x := []string{"a", "b", "c", "d"}
+y :=[:2] // a, b
+z :=[1:] // b, c, d
+d :=[1:3] // b, c
+e :=[:] // a, b, c, d
+```
+When taking slice from the slice, the result is a reference to the sub slice in the slice as a whole. This means multiple variables then point to the slice. Modifying sub slices will modify the original slice as well.
+
+We cannot use append on sub slices as it will cause unintended consequences. It might overwrite the part of the whole slice when we append to sub slice. The solution to this is to either never use append on sub slices or to use full slice expression. This is number after the slice separator:
+```go
+x := make([]string, 0, 5)
+x = append(x, "a", "b", "c", "d")
+y := x[:2:2]
+z := x[2:4:4]
+```
+It acts as a guard against overriding the entire slice.
+## Copy
+This function takes two parameters, the first is destination slice and second i source slice. The size of the resulting slice is limited by the smallest slice passed onto the function. It returns length of the slice:
+```go
+x := []int{1, 2, 3, 4}
+y := make([]int, 4)
+num := copy(y, x)
+fmt.Println(y, num)
+```
+We can use this property to copy sub slice, if the destination slice is of capacity 2 and source is larger it will take only first 2 items from the slice:
+```go
+x := []int{1, 2, 3, 4}
+y := make([]int, 2)
+num := copy(y, x)
+```
+We can also copy from the middle of the source slice:
+```go
+x := []int{1, 2, 3, 4}
+y := make([]int, 2)
+copy(y, x[2:])
+```
+## Converting arrays to slices
+To convert entire array to slice use the syntax `[:]`:
+```go
+x := [4]int{5,6,7,8}
+y := x[:] //converts array to slice
+```
+## Converting slices to arrays
+We can use type conversion to do this:
+```go
+xSlice := []int{1, 2, 3, 4}
+xArray := [4]int(xSlice)
+```
