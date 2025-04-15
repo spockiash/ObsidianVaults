@@ -1,0 +1,1 @@
+Runes are 32 bit sized type identical to integer. 
