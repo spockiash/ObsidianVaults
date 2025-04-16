@@ -60,3 +60,5 @@ Variables outside of a function should be made [[Immutability|immutable]]. As ch
 ## Unused variables
 In go unused variables are considered compile-time error. Declared variable must be read at least once.
 Unused constants are allowed as they are calculated during compile-time and cannot have any side effects.
+# Control structures
+[[Program structures]]
