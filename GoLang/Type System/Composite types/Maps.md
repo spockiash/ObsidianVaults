@@ -72,3 +72,19 @@ if intSet[100] {
 fmt.Println("100 is in the set")
 }
 ```
+## Iterating over maps
+When iterating over maps with [[Loops#The `for-range` statement|for-range]] the output will change per each run:
+```go
+m := map[string]int{
+	"a": 1,
+	"c": 3,
+	"b": 2,
+}
+for i := 0; i < 3; i++ {
+	fmt.Println("Loop", i)
+	for k, v := range m {
+		fmt.Println(k, v)
+}
+}
+```
+This is security feature, because the maps if stored in the same way each time can create vector for attack like `hash dos`. For this reason the `for-range` loop will randomize the order of iteration.

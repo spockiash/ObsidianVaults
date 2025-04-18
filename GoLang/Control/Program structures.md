@@ -17,3 +17,4 @@ func main() {
 # Control structures
 * [[If statements]]
 * [[Loops]]
+* [[Switch]]

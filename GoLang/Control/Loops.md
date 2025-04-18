@@ -54,3 +54,28 @@ for i, v := range evenVals {
 The first variable `i` is the index position and the `v` is the value at the position. So for example `i=0 -> v=2` and so on. When looping over an array, slice, or string, an i for index
 is commonly used. When iterating through a map, k (for key) is used instead.
 When the variable is not needed for example the index we can use a `_` as a name for it. Go will ignore this value.
+In the case where the value is not needed, we can skip the value entirely:
+```go
+uniqueNames := map[string]bool{"Fred": true, "Raul": true, "Wilma": true}
+for k := range uniqueNames {
+	fmt.Println(k)
+}
+```
+## Copy value
+In the for-range loop the variables contain a copy of the elements in the compound type that is iterated on. Modifying the value will not modify the original value. Since Go 1.22 the variables are not reused for each iteration but instead created new one.
+This behavior is break-changing between the older Go versions, so it can be changed by the developer by switching to the previous version of this behavior.
+
+# Labeled loops
+Loops can be labeled, the label is put on line before the loop starts and is not indented according to scope. The label can be then used with break or continue to jump to the code below the label:
+```go
+outer:
+for i := 0; i < 3; i++ {
+    for j := 0; j < 3; j++ {
+        if i == j {
+            continue outer  // jumps to next iteration of outer loop
+        }
+        fmt.Println(i, j)
+    }
+}
+```
+This will cause the outer loop to pick up from where it was left. This does not reset the the loop, so it will continue from the latest iteration of the labeled loop.
