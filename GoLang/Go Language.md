@@ -62,3 +62,5 @@ In go unused variables are considered compile-time error. Declared variable must
 Unused constants are allowed as they are calculated during compile-time and cannot have any side effects.
 # Control structures
 [[Program structures]]
+# Functions
+[[Functions]]
