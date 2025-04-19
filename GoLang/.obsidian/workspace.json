@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functions/Closures.md",
+                "file": "Functions/Releasing resources with `defer`.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Closures"
+              "title": "Releasing resources with `defer`"
             }
           }
         ],
@@ -181,9 +181,10 @@
   },
   "active": "09a2c9fee5f51cc6",
   "lastOpenFiles": [
-    "Functions/Functions.md",
     "Functions/Anonymous functions.md",
+    "Functions/Releasing resources with `defer`.md",
     "Functions/Closures.md",
+    "Functions/Functions.md",
     "Type System/Composite types/Structs.md",
     "Functions/First class functions.md",
     "Go Language.md",

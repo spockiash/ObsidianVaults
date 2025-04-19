@@ -11,7 +11,12 @@ func main() {
 ```
 It is illegal to provide name to anonymous functions. This means functions defined inside functions must be always anonymous. Named function can be declared only at package level or in structs as methods.
 
-Anonymous functions can be called inline with declaration to avoid assigning them to variables.
+Anonymous functions can be called inline with declaration to avoid assigning them to variables. To call the anonymous function inline just declare it and then after the declaration use parentheses to call the function:
+```go
+defer func(val int) {
+    fmt.Println("This is an inline function with value:", val)
+}(a) // supply variable a to the inline call of anon. func.
+```
 
 Anonymous functions can be declared at the package level and assigned to variables:
 ```go
