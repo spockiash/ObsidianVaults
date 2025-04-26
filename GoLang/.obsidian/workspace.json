@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functions/Releasing resources with `defer`.md",
+                "file": "Pointers/Pointers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Releasing resources with `defer`"
+              "title": "Pointers"
             }
           }
         ],
@@ -181,31 +181,36 @@
   },
   "active": "09a2c9fee5f51cc6",
   "lastOpenFiles": [
+    "Pasted image 20250426133533.png",
     "Functions/Anonymous functions.md",
-    "Functions/Releasing resources with `defer`.md",
     "Functions/Closures.md",
-    "Functions/Functions.md",
+    "Control/Loops.md",
     "Type System/Composite types/Structs.md",
-    "Functions/First class functions.md",
+    "Pointers/Pointers.md",
+    "Type System/Composite types/Maps.md",
+    "Pointers",
+    "Type System/Composite types/Slices.md",
+    "Type System/Composite types/Strings.md",
+    "Practical/Building TUIs.md",
+    "Modules and Packages.md",
+    "Practical",
     "Go Language.md",
+    "Functions/Functions.md",
+    "Functions/Releasing resources with `defer`.md",
+    "Functions/First class functions.md",
     "Control/Switch.md",
     "Functions",
     "Control/Program structures.md",
-    "Control/Loops.md",
-    "Type System/Composite types/Strings.md",
-    "Type System/Composite types/Maps.md",
     "Control/If statements.md",
     "Control",
     "Untitled.md",
     "Type System/Composite types/Arrays.md",
     "Type System/Composite types/Composite types.md",
     "Type System/Composite types/Runes.md",
-    "Type System/Composite types/Slices.md",
     "Type System/Composite types",
     "Type System/Immutability.md",
     "Type System/Pre-declared (built-in) types.md",
     "Type System/Type conversions.md",
-    "Modules and Packages.md",
     "Type System"
   ]
 }

@@ -1,6 +1,7 @@
 [[First class functions]]
 [[Anonymous functions]]
 [[Closures]]
+[[Releasing resources with `defer`]]
 # Declaring functions
 Functions are declared with the `func` keyword, followed by the name of the function, then by parameters in parentheses and then by return type of the function:
 ```go
