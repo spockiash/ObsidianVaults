@@ -11,10 +11,14 @@
             "id": "3cfe5ec191fc43d1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Pointers/Pointers and Garbage collector.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pointers and Garbage collector"
             }
           },
           {
@@ -23,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pointers/Pointers.md",
+                "file": "Type System/Composite types/Maps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pointers"
+              "title": "Maps"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,38 +182,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09a2c9fee5f51cc6",
+  "active": "3cfe5ec191fc43d1",
   "lastOpenFiles": [
+    "Pointers/Slices as buffers.md",
+    "Pointers/Pointers and Garbage collector.md",
+    "Pointers/Pointers.md",
+    "Pointers/Difference between maps and slices.md",
+    "Pointers/Untitled",
+    "Type System/Composite types/Maps.md",
+    "Go Language.md",
+    "Type System/Composite types/Composite types.md",
+    "Functions/Functions.md",
+    "Pointers/Pointer performance.md",
+    "Type System/Composite types/Slices.md",
+    "Control/Loops.md",
+    "Control/If statements.md",
+    "Pointers/Pointers and mutability.md",
+    "Functions/Asynchronous functions.md",
     "Pasted image 20250426133533.png",
     "Functions/Anonymous functions.md",
     "Functions/Closures.md",
-    "Control/Loops.md",
     "Type System/Composite types/Structs.md",
-    "Pointers/Pointers.md",
-    "Type System/Composite types/Maps.md",
     "Pointers",
-    "Type System/Composite types/Slices.md",
     "Type System/Composite types/Strings.md",
     "Practical/Building TUIs.md",
     "Modules and Packages.md",
     "Practical",
-    "Go Language.md",
-    "Functions/Functions.md",
     "Functions/Releasing resources with `defer`.md",
     "Functions/First class functions.md",
     "Control/Switch.md",
     "Functions",
     "Control/Program structures.md",
-    "Control/If statements.md",
     "Control",
     "Untitled.md",
     "Type System/Composite types/Arrays.md",
-    "Type System/Composite types/Composite types.md",
-    "Type System/Composite types/Runes.md",
     "Type System/Composite types",
-    "Type System/Immutability.md",
-    "Type System/Pre-declared (built-in) types.md",
-    "Type System/Type conversions.md",
     "Type System"
   ]
 }

@@ -1,3 +1,7 @@
+[[Pointer performance]]
+[[Pointers and mutability]]
+[[Difference between maps and slices]]
+[[Slices as buffers]]
 # Primer
 Pointer is a variable that holds location in memory where an item is stored. Every variable occupies contiguous memory location. Integers  that are 323 bits for example occupy 4 bytes in memory and booleans require single byte.
 
@@ -23,7 +27,7 @@ pointer := &x // this creates pointer
 ```
 It is used to create pointer from an variable.
 ## The indirection operator
-The `*` is the indirection operator, it returns the value of where the pointer points to:
+The `*` is the indirection operator, it returns the value of where the pointer points to (the memory address):
 ```go
 x := 10
 pointer := &x // create pointer with address operator
@@ -131,3 +135,8 @@ Some people explain this that the languages use pass by reference for classes in
 What is seen is that every instance of a class in these languages is implemented as a pointer. When class instance is passed to a function or method, the value being copied is the pointer to the instance. Since `outer` and `inner1` are referring to the same memory, changes made to fields of the class instance are reflected in the outer variable. When the value is reassigned to a new instance, this creates a separate instance that does not affect the outer variable.
 
 In Go this is exactly the same, only Go give you a choice whether to pass pointers or values.
+
+## Pointers indicate zero value
+Go pointers are often used to indicate the difference between variable of field that has been assigned with the zero value and those where it was not assigned a value at all. For this purpose the `nil` pointer should be used to represent unassigned variable or struct field.
+
+When doing this pattern it is better to use the [[Maps#The comma ok Idiom|comma ok idiom]] that can be seen in maps. Instead of returning the `nil` pointer from a function return the value and the boolean. The `nil` pointer cannot be passed into a function as parameter as the value cannot be changed.

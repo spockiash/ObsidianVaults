@@ -1,0 +1,1 @@
+In general it makes sense to pass pointers instead of objects that are larger than 10 megabytes. The pointers are the same size regardless of type. For objects that are smaller than 10 megabytes it is actually slower to pass the pointer then the value directly.

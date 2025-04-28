@@ -64,3 +64,7 @@ Unused constants are allowed as they are calculated during compile-time and cann
 [[Program structures]]
 # Functions
 [[Functions]]
+# Pointers
+[[Pointers]]
+# Practical
+[[Building TUIs]]
